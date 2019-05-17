@@ -1,0 +1,50 @@
+@keyframes lazy_load {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+*, *:after, *:before {
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+  background: white; }
+
+body, header, main, footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto; }
+
+section {
+  position: relative;
+  display: flex;
+  width: 100%; }
+
+.header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #989898; }
+  .header-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto; }
+  .header-title {
+    font-size: 1.6rem;
+    text-transform: uppercase; }
+  .header-subtitle {
+    font-size: 1rem;
+    font-weight: normal; }

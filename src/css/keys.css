@@ -1,0 +1,5 @@
+@keyframes lazy_load {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
